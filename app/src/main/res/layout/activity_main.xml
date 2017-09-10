@@ -25,12 +25,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/home"
-                android:layout_gravity="center"/>
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="15dp"/>
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="5dp"
                 android:textColor="@color/texttab"
                 android:text="首页"/>
         </FrameLayout>
@@ -43,12 +44,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/order"
-                android:layout_gravity="center"/>
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="15dp"/>
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="5dp"
                 android:textColor="@color/texttab"
                 android:text="订单"/>
         </FrameLayout>
@@ -60,12 +62,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/person"
-                android:layout_gravity="center"/>
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="15dp"/>
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="5dp"
                 android:textColor="@color/texttab"
                 android:text="个人"/>
         </FrameLayout>
@@ -77,12 +80,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/more"
-                android:layout_gravity="center"/>
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="15dp"/>
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginTop="5dp"
                 android:textColor="@color/texttab"
                 android:text="更多"/>
         </FrameLayout>
